@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: black;
+}
+.clr{
+    clear: both;
+}
+#mainHeader{
+    margin: auto;
+    background-color: rgb(22, 22, 22);
+    padding: 50px;
+    color: yellow;
+}
+.boxes{
+    color:green; 
+     width: 50%;
+    margin: auto;
+   
+}
+.boxes .b{
+    background: white;
+    box-sizing: border-box;
+    height:100px;
+    
+    width: 33.3%;
+    float:left;
+    border: 3px black solid;
+}
+.placed{
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+    
+}
+.boxes .placed p{
+    
+    margin:0;
+    font-size: 32px;
+    color: blue;
+    margin-top:30px;
+}
