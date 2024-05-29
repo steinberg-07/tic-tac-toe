@@ -7,7 +7,7 @@ const teamX = [];
 
 for(let i = 0; i < boxArr.length; i++){
     boxArr[i].addEventListener("click",place);
-
+    boxArr[i].addEventListener("touchend",place);
     function place(e){
         e.preventDefault;
 
